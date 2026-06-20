@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmpathAI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>EmpathAI</h1>
+    <h2>Human-Centric Emotion Response System</h2>
+
+    <p>Detect emotions using AI and provide empathetic responses.</p>
+
+    <button id="startBtn">Start Emotion Detection</button>
+    <h3>Detected Emotion: {{ emotion }}</h3>
+    <h3>Response: {{ response }}</h3>
+
+    <div id="result"></div>
+</div>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+</html>
