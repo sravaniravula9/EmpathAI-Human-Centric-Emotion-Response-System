@@ -2,5 +2,5 @@ Flask==3.0.3
 opencv-python
 numpy
 deepface
-tensorflow==2.15.0
+tensorflow==2.16.0
 gunicorn
